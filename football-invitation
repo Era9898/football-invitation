@@ -2,32 +2,32 @@
 <html lang="kk">
 <head>
   <meta charset="UTF-8">
-  <title>Футбол турнир Арқалық</title>
+  <title>Арқалық футбол турнирі</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-image: url('https://llf-ast.kz/images/WhatsApp_Image_2025-03-30_at_14.49.54_1.jpeg');
-      background-size: cover;
-      background-position: center;
+      font-family: 'Rubik', sans-serif;
       color: white;
+      background: url('https://llf-ast.kz/images/WhatsApp_Image_2025-03-30_at_14.49.54_1.jpeg') no-repeat center center fixed;
+      background-size: cover;
       text-align: center;
     }
 
     .overlay {
       background-color: rgba(0, 0, 0, 0.6);
-      padding: 40px 20px;
+      padding: 30px;
       min-height: 100vh;
     }
 
     h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
+      font-size: 42px;
+      margin-top: 30px;
     }
 
     p {
-      font-size: 24px;
-      line-height: 1.6;
+      font-size: 22px;
+      margin: 10px 0;
     }
 
     .button {
@@ -36,64 +36,59 @@
       padding: 15px 25px;
       background-color: #25D366;
       color: white;
-      font-size: 22px;
       text-decoration: none;
+      font-size: 20px;
       border-radius: 10px;
+    }
+
+    .instagram {
+      background-color: #E1306C;
     }
 
     .calendar {
       margin-top: 40px;
-      display: inline-block;
-      background-color: #fff;
-      color: #000;
+      font-size: 20px;
+      background-color: rgba(255,255,255,0.1);
       padding: 20px;
-      border-radius: 10px;
+      border-radius: 15px;
+      display: inline-block;
     }
 
     .highlight {
-      background-color: #ffdd57;
-      border-radius: 5px;
-      padding: 2px 6px;
+      color: #FFD700;
+      font-weight: bold;
     }
 
     iframe {
-      display: none;
+      margin-top: 30px;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
   <div class="overlay">
     <h1>Арқалық қаласында футбол турнирі! ⚽</h1>
-    <p>
-      📅 Өтетін күні: <span class="highlight">25-26 Шілде</span><br>
-      📍 Өтетін орны: Арқалық<br>
-      💰 Жүлде қоры: 500 000 тг<br>
-      👥 Қатысушы командалар саны: 12 команда<br>
-      📌 Турнир форматы: 5x5<br>
-      🎉 Бұл нағыз тартысты және қызықты дода болмақ!<br><br>
-      📝 Тіркелу басталып кетті!<br>
-      Тіркелу немесе қосымша ақпарат үшін — <strong>Direct</strong> немесе <br>
-      📱 <a href="https://wa.me/77711660306" class="button">WhatsApp арқылы</a><br><br>
-      📷 Instagram: <a href="https://www.instagram.com/inter_dem_qazaqstan" target="_blank" class="button">@inter_dem_qazaqstan</a>
-    </p>
+
+    <p>📅 Өтетін күні: <span class="highlight">25-26 Шілде</span></p>
+    <p>📍 Өтетін орны: Арқалық</p>
+    <p>💰 Жүлде қоры: <strong>500 000 ₸</strong></p>
+    <p>👥 Қатысушы командалар саны: 12 команда</p>
+    <p>📌 Формат: 5x5</p>
+    <p>🎉 Бұл нағыз тартысты және қызықты дода болмақ!</p>
+
+    <p>📝 Тіркеу басталып кетті! Командаңды жинап, тіркел!</p>
+
+    <a class="button" href="https://wa.me/87711660306" target="_blank">Whatsapp арқылы тіркелу</a>
+    <a class="button instagram" href="https://www.instagram.com/inter_dem_qazaqstan" target="_blank">@inter_dem_qazaqstan</a>
 
     <div class="calendar">
-      <h2>Шілде 2025</h2>
-      <table>
-        <tr>
-          <td>Дс</td><td>Сс</td><td>Ср</td><td>Бс</td><td>Жм</td><td>Сб</td><td>Жс</td>
-        </tr>
-        <tr>
-          <td>21</td><td>22</td><td>23</td><td>24</td>
-          <td class="highlight">25</td>
-          <td class="highlight">26</td>
-          <td>27</td>
-        </tr>
-      </table>
+      <p>📆 Турнир күндері:</p>
+      <p><span class="highlight">25 Шілде (бейсенбі)</span></p>
+      <p><span class="highlight">26 Шілде (жұма)</span></p>
     </div>
-  </div>
 
-  <!-- Музыка с YouTube (в фоновом режиме) -->
-  <iframe width="0" height="0" src="https://www.youtube.com/embed/onMerjLAeGM?autoplay=1&loop=1&playlist=onMerjLAeGM&controls=0&mute=0" frameborder="0" allow="autoplay"></iframe>
+    <!-- Музыка (автоигра через YouTube) -->
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/onMerjLAeGM?autoplay=1&loop=1&playlist=onMerjLAeGM" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+  </div>
 </body>
 </html>
