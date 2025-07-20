@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>Футбол турнир Арқалық</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://llf-ast.kz/images/WhatsApp_Image_2025-03-30_at_14.49.54_1.jpeg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 20px 10px;
+      padding: 15px 25px;
+      background-color: #25D366;
+      color: white;
+      font-size: 22px;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+
+    .calendar {
+      margin-top: 40px;
+      display: inline-block;
+      background-color: #fff;
+      color: #000;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .highlight {
+      background-color: #ffdd57;
+      border-radius: 5px;
+      padding: 2px 6px;
+    }
+
+    iframe {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Арқалық қаласында футбол турнирі! ⚽</h1>
+    <p>
+      📅 Өтетін күні: <span class="highlight">25-26 Шілде</span><br>
+      📍 Өтетін орны: Арқалық<br>
+      💰 Жүлде қоры: 500 000 тг<br>
+      👥 Қатысушы командалар саны: 12 команда<br>
+      📌 Турнир форматы: 5x5<br>
+      🎉 Бұл нағыз тартысты және қызықты дода болмақ!<br><br>
+      📝 Тіркелу басталып кетті!<br>
+      Тіркелу немесе қосымша ақпарат үшін — <strong>Direct</strong> немесе <br>
+      📱 <a href="https://wa.me/77711660306" class="button">WhatsApp арқылы</a><br><br>
+      📷 Instagram: <a href="https://www.instagram.com/inter_dem_qazaqstan" target="_blank" class="button">@inter_dem_qazaqstan</a>
+    </p>
+
+    <div class="calendar">
+      <h2>Шілде 2025</h2>
+      <table>
+        <tr>
+          <td>Дс</td><td>Сс</td><td>Ср</td><td>Бс</td><td>Жм</td><td>Сб</td><td>Жс</td>
+        </tr>
+        <tr>
+          <td>21</td><td>22</td><td>23</td><td>24</td>
+          <td class="highlight">25</td>
+          <td class="highlight">26</td>
+          <td>27</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Музыка с YouTube (в фоновом режиме) -->
+  <iframe width="0" height="0" src="https://www.youtube.com/embed/onMerjLAeGM?autoplay=1&loop=1&playlist=onMerjLAeGM&controls=0&mute=0" frameborder="0" allow="autoplay"></iframe>
+</body>
+</html>
